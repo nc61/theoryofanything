@@ -2,7 +2,7 @@
 import "../styles/global.css"; 
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const allPosts = Object.values(import.meta.glob("./posts/*.md", { eager: true }));
+const allPosts = Object.values(import.meta.glob("./posts/*.{md,mdx}", { eager: true }));
 ---
 <BaseLayout pageTitle="Posts">
   <p>Blog page</p>  

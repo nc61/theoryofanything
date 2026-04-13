@@ -4,6 +4,19 @@ title: 'Mathjax test'
 tags: ['mathjax']
 pubDate: 2026-04-11
 ---
+<h2> What we want to show </h2>
+
+The potential induced by some (generally time-dependent) classical charge distribution $\rho(\mathbf{r},t)$ is
+
+$$
+\begin{equation}
+    V(\mathbf{r}, t) = \frac{1}{4\pi \epsilon_0}\int \frac{\rho(\mathbf{r}', t_r)}{|\mathbf{r} - \mathbf{r}'|} d\mathbf{r}'
+\end{equation}
+$$
+where $t_r = t - |\mathbf{r} -\mathbf{r}'|/c$ is the retarded time. This time delay appears because the effect of a disturbance in charge density $\rho$ at a position $\mathbf{r}'$ travels a distance $|\mathbf{r} - \mathbf{r}'|$ to the position $\mathbf{r}$ at the speed of light. As we will see, the propagation at the speed of light occurs because 
+
+The wave equation for the Lorenz-gauge electromagnetic potentials is
+
 $$
 \begin{align}
     \nabla^2 \mathbf{A} - \frac{1}{c^2}\frac{\partial^2 \mathbf{A}}{\partial t^2} &= \mu_0 \mathbf{J}(\mathbf{r}) \\
