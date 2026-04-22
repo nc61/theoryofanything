@@ -11,7 +11,7 @@ export default defineConfig({
     rehypePlugins: [
       [rehypeMathjax, {
         tex: {
-          packages: ['base', 'ams', 'newcommand', 'autoload', 'require', 'color', 'html', 'textcomp', 'cleveref'],
+          packages: ['base', 'ams', 'bm', 'color'],
           tags: 'ams',
         }
       }]
