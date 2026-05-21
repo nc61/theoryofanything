@@ -6,7 +6,7 @@ import rehypeMathjax from 'rehype-mathjax';
 import mdx from '@astrojs/mdx';
 
 export default defineConfig({
-  site: 'www.theoryofanyth.ing',
+  site: 'https://www.theoryofanyth.ing',
   markdown: {
     remarkPlugins: [remarkMath],
     rehypePlugins: [
