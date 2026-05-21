@@ -11,7 +11,7 @@ export default defineConfig({
     rehypePlugins: [
       [rehypeMathjax, {
         tex: {
-          packages: ['base', 'ams', 'bm', 'color'],
+          packages: ['base', 'ams', 'physymb', 'color'],
           tags: 'ams',
         }
       }]

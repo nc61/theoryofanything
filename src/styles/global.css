@@ -39,6 +39,11 @@ summary::-webkit-details-marker {
   margin-right: 6px;
 }
 
+.center-img
+{
+  text-align: center;
+  margin: 4rem 0;
+}
 
 .menu {
   background-color: navy;
