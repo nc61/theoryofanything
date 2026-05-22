@@ -1,0 +1,42 @@
+{	
+	"Begin Equation": {
+    "prefix": "equation",
+    "body": [
+      "$$",
+	  "\\begin{equation}",
+	  "\t$1",
+	  "\\end{equation}",
+	  "$$"
+    ]
+  },
+
+  "Details box": {
+    "prefix": "details",
+    "body": [
+	  "<!-- #region -->",
+	  "",
+      "<details>",
+	  "<summary>$1</summary>",
+	  "",
+	  "$2",
+	  "",
+	  "</details>",
+	  "",
+	  "<!-- #endregion -->"
+	]
+  },
+
+  "Latex frac": {
+    "prefix": "\\\\frac",
+    "body": [
+      "\\frac{$1}{$2}"
+    ]
+  },
+
+  "reference": {
+	"prefix": "\\\\eqref",
+	"body": [
+	  "Eq.$\\ \\ref{$1}$"
+	]
+  }
+}

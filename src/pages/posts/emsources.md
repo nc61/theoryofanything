@@ -243,7 +243,6 @@ $$
 which removes an infinitesimally small symmetric interval about each pole so the result stays finite.
 </details>
 
-
 <details>
 <summary> A note on the principal value integration </summary>
 
@@ -340,6 +339,9 @@ $$
 	\int_{S(ck,\epsilon)}f(z) dz &= \frac{i\pi e^{-ick\tau}}{2ck} \label{eq:sminus}.
 \end{align}
 $$
+
+<!-- #region -->
+
 <details>
 <summary> Derivation </summary>
 
@@ -377,6 +379,9 @@ $$
 $$
 </details>
 
+<!-- #endregion -->
+
+
 Applying Eqs. $\ref{eq:splus}$ and $\ref{eq:sminus}$ to the result in Eq.$\ \ref{eq:omfinal}$, we find
 $$
 \begin{equation}\label{eq:omegafinal}
@@ -390,6 +395,8 @@ $$
 	G(\mathbf{q},\tau) = -\frac{\eta c}{4\pi q}\delta(q - c\tau).
 \end{equation}
 $$
+
+<!-- #region -->
 
 <details>
 <summary> Derivation </summary>
@@ -434,6 +441,8 @@ $$
 If we want the advanced operator, we just need to repeat the process under the condition $\tau < 0$, which requires closure in the lower-half plane. In the end, we end up with exactly what is suggested by Eq.$\ \ref{eq:Gpen}$, which is why its possible to be sloppy and still get the "correct" answer. 
 </details>
 
+<!-- #endregion -->
+
 We can now apply the Green function according to Eq.$\ \ref{eq:Gapp}$ with source terms $s(\mathbf{r},t) = -\rho(\mathbf{r},t)$ and $s_i = -J_i(\mathbf{r},t)$ for the scalar potential and $i$th component of the vector potential, respectively. Also applying the definition of our variable $\eta = 1/\epsilon_0$ (scalar potential) and $\eta = \mu_0$ (vector potential), we finally find
 $$
 \begin{align}
@@ -442,6 +451,7 @@ $$
 \end{align}
 $$
 which is the relationship we wanted to show (Eq.$\ \ref{eq:weq}$).
+<!-- #region -->
 <details>
 <summary> Derivation </summary>
 
@@ -463,6 +473,6 @@ $$
 	f(\mathbf{r},t) = -\frac{\eta}{4\pi}\int \frac{s\left(\mathbf{r}', t - \frac{|\mathbf{r} - \mathbf{r}'|}{c}\right)}{|\mathbf{r} - \mathbf{r}'|} d\mathbf{r}'.
 \end{equation}
 $$
-All that remains is to plug in $s = -\rho$ and $\eta = 1/\epsilon_0$ to find the scalar potential due to a charge distribution and $s_i = J_i$ and $\eta = \mu_0$ to find the vector potential components due to a current distribution.
+All that remains is to plug in $s = -\rho$ and $\eta = 1/\epsilon_0$ to find the scalar potential due to a charge distribution and $s_i = -J_i$ and $\eta = \mu_0$ to find the vector potential components due to a current distribution.
 
-</details>
+<!-- #endregion -->
